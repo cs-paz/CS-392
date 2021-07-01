@@ -1,0 +1,13 @@
+./mtsieve -s100 -e200000000 -t1 : 0m3.935s
+./mtsieve -s100 -e200000000 -t2 : 0m2.455s
+./mtsieve -s100 -e200000000 -t3 : 0m2.431s
+./mtsieve -s100 -e200000000 -t4 : 0m.2.285s
+
+My pc cannot run more than 4 threads
+
+Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+My time does not scale linearly.  
+It approaches an asymptote as I reach the number of threads that is double my processor number which is 4.  
+
+
+
